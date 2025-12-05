@@ -11,13 +11,13 @@ html{
 /* Cinzel Variable */
 @font-face {
   font-family: "CinzelVariable";
-  src: url("./assets/fonts/Cinzel-VariableFont_wght.ttf") format("truetype");
+  src: url("./assets/fonts/Cinzel-Regular.woff2") format("woff2");
 }
 
 /* Sharp Grotesk Book 20 Regular */
 @font-face {
   font-family: "SharpGrotesk20";
-  src: url("./assets/fonts/Sharp\ Grotesk\ Book\ 20\ Regular.ttf") format("truetype");
+  src: url("./assets/fonts/SharpGroteskBook20-Regular.woff2") format("woff2");
 }
 
 body {
