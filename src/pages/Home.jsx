@@ -3,7 +3,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import bannerSlide1 from '../assets/images/banner-slide-1.avif';
+import bannerSlide1 from '/images/banners/banner-slide-1.avif';
+import bannerSlide2 from '/images/banners/banner-slide-2.avif';
+import bannerSlide3 from '/images/banners/banner-slide-3.avif';
 import AboutBrand from '../components/about-brand/AboutBrand';
 import AboutFounder from '../components/about-founder/AboutFounder';
 import Collections from '../components/collections/Collections';
@@ -40,14 +42,14 @@ const Home = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={bannerSlide1} alt="Banner Slide 2" loading="lazy" />
+                        <img src={bannerSlide2} alt="Banner Slide 2" loading="lazy" />
                         <div className="slide-content">
                             <span>Lorem ipsum</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src={bannerSlide1} alt="Banner Slide 3" loading="lazy" />
+                        <img src={bannerSlide3} alt="Banner Slide 3" loading="lazy" />
                         <div className="slide-content">
                             <span>Lorem ipsum</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
