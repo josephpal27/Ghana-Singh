@@ -1,0 +1,38 @@
+footer{
+    background-image: url('../../assets/images/footer-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.footer-content{
+    padding: 2rem 7% 2rem 7%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+footer .footer-left{
+    width: 17%;
+}
+footer .footer-right{
+    width: 78%;
+}
+footer img{
+    width: 150px;
+}
+footer .footer-right p{
+    font-size: calc(0.9rem + 0.5vw);
+    font-family: "CinzelVariable", sans-serif !important;
+}
+footer .footer-right p:last-child{
+    margin: 0;
+}
+footer .copyright{
+    padding: 1rem 7%;
+    border-top: 1px solid #fff;
+}
+footer .copyright p{
+    font-size: calc(0.4rem + 0.5vw);
+    text-align: center;
+    margin: 0;
+}
