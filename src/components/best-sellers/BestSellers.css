@@ -1,0 +1,44 @@
+.best-sellers{
+    padding: 3rem 7%;
+}
+.best-sellers h4{
+    font-size: calc(3rem + 0.5vw);
+}
+.best-sellers p{
+    font-size: calc(0.65rem + 0.5vw);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    width: 50%;
+    color: #000;
+}
+.sellers-card-row{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sellers-card-row .seller-card{
+    width: 31%;
+}
+.sellers-card-row .seller-card .card-image{
+    overflow: hidden;
+}
+.sellers-card-row .seller-card img{
+    width: 100%;
+    height: auto;
+    transition: scale 0.5s ease;
+}
+.sellers-card-row .seller-card img:hover{
+    scale: 1.05;
+}
+.sellers-card-row .seller-card span{
+    display: block;
+    font-size: calc(2rem + 0.5vw);
+    font-family: "CinzelVariable", sans-serif !important;
+    margin-top: 1.5rem;
+}
+.sellers-card-row .seller-card p{
+    width: 100%;
+    font-style: italic;
+    margin-top: 0.8rem;
+}

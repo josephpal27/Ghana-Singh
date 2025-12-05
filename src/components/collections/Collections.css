@@ -35,7 +35,7 @@
 }
 .collection-grid .collection-column .box img{
     width: 100%;
-    height: max-content;
+    height: auto;
 }
 .collection-grid .collection-column .text-box{
     position: relative;
