@@ -67,3 +67,70 @@
     right: 0;
     margin-top: -0.5rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .about-founder{
+        padding: 1.7rem 7%;
+    }
+    .about-founder .about-founder-head h2{
+        font-size: calc(2.8rem + 0.5vw);
+    }
+    .about-founder .about-founder-head p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.48rem;
+        width: 82%;
+    }
+    .about-founder-content{
+        margin-top: 0.9rem;
+    }
+    .about-founder-content #founder-background{
+        font-size: calc(11rem + 0.5vw);
+        padding-top: 3.5rem;
+    }
+    .about-founder-content .content-box{
+        padding-top: 2.5rem;
+    }
+    .about-founder-content .content-box p{
+        font-size: calc(1.3rem + 0.5vw);
+    }
+    .about-founder-content .content-box span{
+        font-size: calc(4.5rem + 0.5vw);
+    }
+    .about-founder-content .content-box .right-quote{
+        margin-top: -0.4rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .about-founder{
+        padding: 1.4rem 7%;
+    }
+    .about-founder .about-founder-head h2{
+        font-size: calc(2.6rem + 0.5vw);
+    }
+    .about-founder .about-founder-head p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.45rem;
+        width: 85%;
+    }
+    .about-founder-content{
+        margin-top: 0.7rem;
+    }
+    .about-founder-content #founder-background{
+        font-size: calc(10rem + 0.5vw);
+        padding-top: 3rem;
+    }
+    .about-founder-content .content-box{
+        padding-top: 2.3rem;
+    }
+    .about-founder-content .content-box p{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .about-founder-content .content-box span{
+        font-size: calc(4rem + 0.5vw);
+    }
+    .about-founder-content .content-box .right-quote{
+        margin-top: -0.4rem;
+    }
+}
