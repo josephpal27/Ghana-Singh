@@ -1,0 +1,39 @@
+.about-brand{
+    padding: 5rem 7%;
+}
+.about-brand h1{
+    text-align: center;
+    font-size: calc(3rem + 0.5vw);
+}
+.about-brand-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+.about-brand-container .about-brand-image{
+    width: 42%;
+    position: relative;
+}
+.about-brand-container .about-brand-image img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.about-brand-container .about-brand-image .layer{
+    width: 99.5%;
+    height: 99.6%;
+    position: absolute;
+    right: -0.8rem;
+    bottom: -0.8rem;
+    background-color: #d6d6d6;
+}
+.about-brand-container .about-brand-content{
+    width: 50%;
+}
+.about-brand-container .about-brand-content p{
+    font-size: calc(0.65rem + 0.5vw);
+    margin-bottom: 1.5rem;
+}
+.about-brand-container .about-brand-content p:last-child{
+    margin-bottom: 0;
+}

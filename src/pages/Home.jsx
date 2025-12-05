@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import bannerSlide1 from '../assets/images/banner-slide-1.png';
+import bannerSlide1 from '../assets/images/banner-slide-1.avif';
 import AboutBrand from '../components/about-brand/AboutBrand';
 
 const Home = () => {
