@@ -1,0 +1,28 @@
+.banner img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+}
+.banner .slide-content{
+    padding: 0 7%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.banner .slide-content span{
+    font-family: "CinzelVariable", sans-serif !important;
+    font-size: calc(4rem + 0.5vw);
+    margin-top: 5rem;
+}
+.banner .slide-content p{
+    font-family: "CinzelVariable", sans-serif !important;
+    font-size: calc(0.65rem + 0.5vw);
+    width: 40%;
+    margin-top: 0.5rem;
+}
