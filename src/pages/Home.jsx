@@ -8,6 +8,7 @@ import AboutBrand from '../components/about-brand/AboutBrand';
 import AboutFounder from '../components/about-founder/AboutFounder';
 import Collections from '../components/collections/Collections';
 import BestSellers from '../components/best-sellers/BestSellers';
+import ContactMap from '../components/contact-map/ContactMap';
 
 const Home = () => {
     return (
@@ -66,6 +67,9 @@ const Home = () => {
 
                 {/* Best Sellers */}
                 <BestSellers />
+
+                {/* Contact Map */}
+                <ContactMap />
 
             </section>
         </>
