@@ -10,6 +10,7 @@ const AboutFounder = () => {
                     <p>He is a person with an exceptionally creative point of view, always seeing possibilities where others see limits. Known for his warm and friendly nature, he makes people feel instantly comfortable and valued.</p>
                 </div>
                 <div className="about-founder-content">
+                    <span id="founder-background">FOUNDER</span>
                     <div className="content-box">
                         <span className="left-quote">“</span>
                         <p>He strongly believes in the idea that “once you come to GhanaSingh,</p>
