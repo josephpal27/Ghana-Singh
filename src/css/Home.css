@@ -41,7 +41,7 @@
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .banner .slide-content span{
         font-size: calc(3.1rem + 0.5vw);
-        margin-top: 4.2rem;
+        margin-top: 4.4rem;
     }
     .banner .slide-content p{
         font-size: calc(0.55rem + 0.5vw);
