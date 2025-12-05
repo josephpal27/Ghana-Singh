@@ -6,6 +6,7 @@ import "swiper/css/effect-fade";
 import bannerSlide1 from '../assets/images/banner-slide-1.avif';
 import AboutBrand from '../components/about-brand/AboutBrand';
 import AboutFounder from '../components/about-founder/AboutFounder';
+import Collections from '../components/collections/Collections';
 
 const Home = () => {
     return (
@@ -58,6 +59,9 @@ const Home = () => {
 
                 {/* About The Founder */}
                 <AboutFounder />
+
+                {/* Featured Collections */}
+                <Collections />
 
             </section>
         </>
