@@ -8,3 +8,18 @@ header img{
     width: 170px;
     margin-top: 3rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    header img{
+        width: 155px;
+        margin-top: 2.7rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    header img{
+        width: 140px;
+        margin-top: 2.4rem;
+    }
+}
