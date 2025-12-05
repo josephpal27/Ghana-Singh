@@ -7,6 +7,7 @@ import bannerSlide1 from '../assets/images/banner-slide-1.avif';
 import AboutBrand from '../components/about-brand/AboutBrand';
 import AboutFounder from '../components/about-founder/AboutFounder';
 import Collections from '../components/collections/Collections';
+import BestSellers from '../components/best-sellers/BestSellers';
 
 const Home = () => {
     return (
@@ -62,6 +63,9 @@ const Home = () => {
 
                 {/* Featured Collections */}
                 <Collections />
+
+                {/* Best Sellers */}
+                <BestSellers />
 
             </section>
         </>
