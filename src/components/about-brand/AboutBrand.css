@@ -8,6 +8,7 @@
 .about-brand-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 2.5rem;
 }
 .about-brand-container .about-brand-image{

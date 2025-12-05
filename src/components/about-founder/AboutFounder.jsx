@@ -11,13 +11,17 @@ const AboutFounder = () => {
                 </div>
                 <div className="about-founder-content">
                     <div className="content-box">
-                        <p><span className="left-quote">“</span> He strongly believes in the idea that “once you come to GhanaSingh, <span className="right-quote">”</span></p>
+                        <span className="left-quote">“</span>
+                        <p>He strongly believes in the idea that “once you come to GhanaSingh,</p>
+                        <span className="right-quote">”</span>
                     </div>
                     <div className="content-box">
                         <img src={founderImg} alt="Founder" loading="lazy" />
                     </div>
                     <div className="content-box">
-                        <p><span className="left-quote">“</span> you won't go anywhere else,” reflecting his confidence, loyalty, and deep dedication to what he stands for. <span className="right-quote">”</span></p>
+                        <span className="left-quote">“</span>
+                        <p>you won't go anywhere else,” reflecting his confidence, loyalty, and deep dedication to what he stands for.</p>
+                        <span className="right-quote">”</span>
                     </div>
                 </div>
             </section>

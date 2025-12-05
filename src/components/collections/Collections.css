@@ -1,0 +1,64 @@
+.collections{
+    padding: 9rem 7% 4rem 7%;
+}
+.collections .collections-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.collections .collections-head h3{
+    text-align: center;
+    font-size: calc(3rem + 0.5vw);
+}
+.collections .collections-head p{
+    text-align: center;
+    font-size: calc(0.65rem + 0.5vw);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    width: 80%;
+    color: #000;
+}
+.collection-grid{
+    margin-top: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.collection-grid .collection-column{
+    width: 48%;
+}
+.collection-grid .collection-column .box{
+    margin-bottom: 3rem;
+}
+.collection-grid .collection-column .box:last-child{
+    margin-bottom: 0;
+}
+.collection-grid .collection-column .box img{
+    width: 100%;
+    height: max-content;
+}
+.collection-grid .collection-column .text-box{
+    position: relative;
+    padding: 2.5rem 0 2rem 0;
+}
+.collection-grid .collection-column .text-box p{
+    font-size: calc(0.65rem + 0.5vw);
+    color: #000;
+    font-style: italic;
+    margin: 0;
+}
+.collection-grid .collection-column .text-box span{
+    font-size: calc(4rem + 0.5vw);
+    color: #000;
+    display: block;
+    line-height: normal;
+    font-family: "CinzelVariable", sans-serif !important;
+    position: absolute;
+}
+.collection-grid .collection-column .text-box .left-quote{
+    top: 0;
+}
+.collection-grid .collection-column .text-box .right-quote{
+    right: 30%;
+    margin-top: -0.5rem;
+}
