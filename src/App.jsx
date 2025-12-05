@@ -1,9 +1,7 @@
 import { Outlet } from "react-router-dom"
 import { useEffect } from "react";
 import Header from './components/header/Header';
-// import Footer from './components/footer/Footer';
-// import ScrollToTop from "./components/scroll-to-top/ScrollToTop";
-// import PageTitle from "./components/page-title/PageTitle";
+import Footer from './components/footer/Footer';
 import AOS from "aos";
 
 const App = () => {
@@ -30,11 +28,9 @@ const App = () => {
 
   return (
     <>
-      {/* <PageTitle/> */}
       <Header />
       <Outlet />
-      {/* <Footer/> */}
-      {/* <ScrollToTop/> */}
+      <Footer/>
     </>
   )
 }
