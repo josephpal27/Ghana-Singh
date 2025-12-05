@@ -33,6 +33,7 @@
 .about-brand-container .about-brand-content p{
     font-size: calc(0.65rem + 0.5vw);
     margin-bottom: 1.5rem;
+    color: #000;
 }
 .about-brand-container .about-brand-content p:last-child{
     margin-bottom: 0;

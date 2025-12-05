@@ -1,0 +1,56 @@
+.about-founder{
+    padding: 2rem 7%;
+}
+.about-founder .about-founder-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-founder .about-founder-head h2{
+    text-align: center;
+    font-size: calc(3rem + 0.5vw);
+}
+.about-founder .about-founder-head p{
+    text-align: center;
+    font-size: calc(0.65rem + 0.5vw);
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    width: 80%;
+    color: #000;
+}
+.about-founder-content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.about-founder-content .content-box{
+    width: 30%;
+    position: relative;
+    padding-top: 3rem;
+}
+.about-founder-content .content-box img{
+    width: 100%;
+    height: max-content;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.about-founder-content .content-box p{
+    font-size: calc(1.5rem + 0.5vw);
+    color: #000;
+    margin: 0;
+}
+.about-founder-content .content-box p span{
+    font-size: calc(5rem + 0.5vw);
+    color: #000;
+    display: block;
+    line-height: normal;
+    font-family: "CinzelVariable", sans-serif !important;
+    position: absolute;
+}
+.about-founder-content .content-box .left-quote{
+    top: 0;
+}
+.about-founder-content .content-box .right-quote{
+    right: 0;
+    margin-top: -0.5rem;
+}
