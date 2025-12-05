@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: unset !important;
+}
+
+/* Cinzel Variable */
+@font-face {
+  font-family: "CinzelVariable";
+  src: url("/src/assets/fonts/Cinzel-VariableFont_wght.ttf") format("truetype");
+}
+
+/* Sharp Grotesk Book 20 Regular */
+@font-face {
+  font-family: "SharpGrotesk20";
+  src: url("/src/assets/fonts/Sharp Grotesk Book 20 Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "SharpGrotesk20", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "CinzelVariable", sans-serif !important;
+}
