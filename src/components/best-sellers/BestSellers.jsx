@@ -1,7 +1,7 @@
 import './BestSellers.css';
-import sellerImg1 from '../../assets/images/sellers/1.png';
-import sellerImg2 from '../../assets/images/sellers/2.png';
-import sellerImg3 from '../../assets/images/sellers/3.png';
+import sellerImg1 from '../../assets/images/sellers/1.avif';
+import sellerImg2 from '../../assets/images/sellers/2.avif';
+import sellerImg3 from '../../assets/images/sellers/3.avif';
 
 const BestSellers = () => {
 
