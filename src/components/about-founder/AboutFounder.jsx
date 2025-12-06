@@ -6,12 +6,12 @@ const AboutFounder = () => {
         <>
             <section className="about-founder">
                 <div className="about-founder-head">
-                    <h2>ABOUT THE FOUNDER</h2>
-                    <p>He is a person with an exceptionally creative point of view, always seeing possibilities where others see limits. Known for his warm and friendly nature, he makes people feel instantly comfortable and valued.</p>
+                    <h2 data-aos="fade-up">ABOUT THE FOUNDER</h2>
+                    <p data-aos="fade">He is a person with an exceptionally creative point of view, always seeing possibilities where others see limits. Known for his warm and friendly nature, he makes people feel instantly comfortable and valued.</p>
                 </div>
                 <div className="about-founder-content">
-                    <span id="founder-background">FOUNDER</span>
-                    <div className="content-box">
+                    <span id="founder-background" data-aos="zoom-in" data-aos-once="true">FOUNDER</span>
+                    <div className="content-box" data-aos="fade">
                         <span className="left-quote">“</span>
                         <p>He strongly believes in the idea that “once you come to GhanaSingh,</p>
                         <span className="right-quote">”</span>
@@ -19,7 +19,7 @@ const AboutFounder = () => {
                     <div className="content-box">
                         <img src={founderImg} alt="Founder" loading="lazy" />
                     </div>
-                    <div className="content-box">
+                    <div className="content-box" data-aos="fade">
                         <span className="left-quote">“</span>
                         <p>you won't go anywhere else,” reflecting his confidence, loyalty, and deep dedication to what he stands for.</p>
                         <span className="right-quote">”</span>
