@@ -62,3 +62,67 @@
     right: 32%;
     margin-top: -0.5rem;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .collections{
+        padding: 8.5rem 7% 3.5rem 7%;
+    }
+    .collections .collections-head h3{
+        font-size: calc(2.8rem + 0.5vw);
+    }
+    .collections .collections-head p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.48rem;
+    }
+    .collection-grid{
+        margin-top: 4rem;
+    }
+    .collection-grid .collection-column .box{
+        margin-bottom: 2.8rem;
+    }
+    .collection-grid .collection-column .text-box{
+        padding: 2.3rem 0 1.8rem 0;
+    }
+    .collection-grid .collection-column .text-box p{
+        font-size: calc(0.6rem + 0.5vw);
+    }
+    .collection-grid .collection-column .text-box span{
+        font-size: calc(3.5rem + 0.5vw);
+    }
+    .collection-grid .collection-column .text-box .right-quote{
+        margin-top: -0.4rem;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .collections{
+        padding: 8rem 7% 3rem 7%;
+    }
+    .collections .collections-head h3{
+        font-size: calc(2.6rem + 0.5vw);
+    }
+    .collections .collections-head p{
+        font-size: calc(0.55rem + 0.5vw);
+        margin-top: 0.45rem;
+    }
+    .collection-grid{
+        margin-top: 3.5rem;
+    }
+    .collection-grid .collection-column .box{
+        margin-bottom: 2.6rem;
+    }
+    .collection-grid .collection-column .text-box{
+        padding: 2rem 0 1.5rem 0;
+    }
+    .collection-grid .collection-column .text-box p{
+        font-size: calc(0.55rem + 0.5vw);
+    }
+    .collection-grid .collection-column .text-box span{
+        font-size: calc(3.2rem + 0.5vw);
+    }
+    .collection-grid .collection-column .text-box .right-quote{
+        right: 30%;
+        margin-top: -0.3rem;
+    }
+}
