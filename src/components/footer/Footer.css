@@ -36,3 +36,40 @@ footer .copyright p{
     text-align: center;
     margin: 0;
 }
+
+/* Media Queries */
+@media screen and (min-width: 1230px) and (max-width: 1399px) {
+    .footer-content{
+        padding: 1.8rem 7% 1.8rem 7%;
+    }
+    footer img{
+        width: 140px;
+    }
+    footer .footer-right p{
+        font-size: calc(0.8rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.95rem 7%;
+    }
+    footer .copyright p{
+        font-size: calc(0.38rem + 0.5vw);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1229px) {
+    .footer-content{
+        padding: 1.6rem 7% 1.6rem 7%;
+    }
+    footer img{
+        width: 130px;
+    }
+    footer .footer-right p{
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.8rem 7%;
+    }
+    footer .copyright p{
+        font-size: calc(0.35rem + 0.5vw);
+    }
+}
