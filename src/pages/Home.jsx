@@ -13,6 +13,28 @@ import BestSellers from '../components/best-sellers/BestSellers';
 import ContactMap from '../components/contact-map/ContactMap';
 
 const Home = () => {
+
+    const bannerSliderData = [
+        {
+            id: 1,
+            img: bannerSlide1,
+            title: "Lorem ipsum",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        {
+            id: 2,
+            img: bannerSlide2,
+            title: "Lorem ipsum",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+        {
+            id: 3,
+            img: bannerSlide3,
+            title: "Lorem ipsum",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        },
+    ]
+
     return (
         <>
 
@@ -34,27 +56,19 @@ const Home = () => {
                     }}
                 >
 
-                    <SwiperSlide>
-                        <img src={bannerSlide1} alt="Banner Slide 1" loading="eager" />
-                        <div className="slide-content">
-                            <span>Lorem ipsum</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={bannerSlide2} alt="Banner Slide 2" loading="lazy" />
-                        <div className="slide-content">
-                            <span>Lorem ipsum</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src={bannerSlide3} alt="Banner Slide 3" loading="lazy" />
-                        <div className="slide-content">
-                            <span>Lorem ipsum</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                    </SwiperSlide>
+                    {
+                        bannerSliderData.map((item, index) => {
+                            return (
+                                <SwiperSlide key={index}>
+                                    <img src={item.img} alt={`Banner Slide ${item.id}`} loading="eager" />
+                                    <div className="slide-content">
+                                        <span>{item.title}</span>
+                                        <p>{item.desc}</p>
+                                    </div>
+                                </SwiperSlide>
+                            )
+                        })
+                    }
 
                 </Swiper>
 
