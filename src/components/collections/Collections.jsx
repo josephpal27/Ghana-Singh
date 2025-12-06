@@ -9,8 +9,8 @@ const Collections = () => {
     <>
       <section className="collections">
         <div className="collections-head">
-            <h3>FEATURED COLLECTIONS</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore eiusmod et dolore magna aliqua. Quis ipsum incididunt suspendisse ultrices consectetur gravida.</p>
+            <h3 data-aos="fade-up">FEATURED COLLECTIONS</h3>
+            <p data-aos="fade">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore eiusmod et dolore magna aliqua. Quis ipsum incididunt suspendisse ultrices consectetur gravida.</p>
         </div>
         <div className="collection-grid">
             {/* Left */}

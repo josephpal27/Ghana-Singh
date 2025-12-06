@@ -29,6 +29,7 @@
 }
 .collection-grid .collection-column .box{
     margin-bottom: 3rem;
+    overflow: hidden;
 }
 .collection-grid .collection-column .box:last-child{
     margin-bottom: 0;
@@ -36,10 +37,15 @@
 .collection-grid .collection-column .box img{
     width: 100%;
     height: auto;
+    transition: scale 0.5s ease;
+}
+.collection-grid .collection-column .box img:hover{
+    scale: 1.05;
 }
 .collection-grid .collection-column .text-box{
     position: relative;
     padding: 2.5rem 0 2rem 0;
+    overflow: visible;
 }
 .collection-grid .collection-column .text-box p{
     font-size: calc(0.65rem + 0.5vw);
