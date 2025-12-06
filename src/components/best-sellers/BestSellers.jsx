@@ -29,13 +29,13 @@ const BestSellers = () => {
     return (
         <>
             <div className="best-sellers">
-                <h4>BEST SELLERS</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h4 data-aos="fade-up">BEST SELLERS</h4>
+                <p data-aos="fade">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div className="sellers-card-row">
                     {
                         sellersData.map((item, index) => {
                             return (
-                                <div className="seller-card" key={index}>
+                                <div className="seller-card" key={index} data-aos="fade">
                                     <div className="card-image">
                                         <img src={item.img} alt={`Seller ${item.id}`} loading="lazy" />
                                     </div>
