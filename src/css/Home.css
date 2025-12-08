@@ -49,3 +49,22 @@
         width: 43%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .banner img{
+        height: auto;
+        height: 40vh;
+    }
+    .banner .slide-content{
+        padding: 0 1rem;
+    }
+    .banner .slide-content span{
+        font-size: calc(1.3rem + 0.5vw);
+        margin-top: 5rem;
+    }
+    .banner .slide-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        width: 100%;
+        /* margin-top: 0.5rem; */
+    }
+}
