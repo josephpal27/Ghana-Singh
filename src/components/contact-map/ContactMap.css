@@ -52,3 +52,24 @@
         margin-top: 2.5rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contact-map{
+        padding: 1.5rem 0 0.7rem 0;
+    }
+    .contact-map .contact-map-head{
+        padding: 0 1rem;
+    }
+    .contact-map h5{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .contact-map p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.8rem;
+        width: 100%;
+    }
+    .contact-map .map-box{
+        height: 60vh;
+        margin-top: 2rem;
+    }
+}
