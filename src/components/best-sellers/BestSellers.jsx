@@ -10,19 +10,19 @@ const BestSellers = () => {
             id: 1,
             img: sellerImg1,
             title: "Lorem Ipsum",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod ut labore et dolore magna eiusmod aliqua.",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod ut labore et dolore magna eiusmod.",
         },
         {
             id: 2,
             img: sellerImg2,
             title: "Lorem Ipsum",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod tempor incididunt ut labore et dolore magna eiusmod aliqua.",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod tempor incididunt ut labore et dolore magna eiusmod.",
         },
         {
             id: 3,
             img: sellerImg3,
             title: "Lorem Ipsum",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod ut labore et dolore magna eiusmod aliqua.",
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod ut labore et dolore magna eiusmod.",
         },
     ]
 

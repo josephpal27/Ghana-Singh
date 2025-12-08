@@ -88,3 +88,31 @@
         margin-top: 0.5rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .best-sellers{
+        padding: 0 1rem;
+    }
+    .best-sellers h4{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .best-sellers p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+    .sellers-card-row{
+        margin-top: 2rem;
+    }
+    .sellers-card-row .seller-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .sellers-card-row .seller-card span{
+        font-size: calc(1.3rem + 0.5vw);
+        margin-top: 1rem;
+    }
+    .sellers-card-row .seller-card p{
+        margin-top: 0.5rem;
+    }
+}
