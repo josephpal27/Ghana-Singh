@@ -81,3 +81,36 @@
         margin-bottom: 1.3rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about-brand{
+        padding: 1.5rem 1rem;
+    }
+    .about-brand h1{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .about-brand-container{
+        margin-top: 2rem;
+    }
+    .about-brand-container .about-brand-image{
+        width: 100%;
+        padding-right: 0.7rem;
+    }
+    .about-brand-container .about-brand-image img{
+        height: auto;
+    }
+    .about-brand-container .about-brand-image .layer{
+        width: 95%;
+        height: 98%;
+        right: 0;
+        bottom: -0.7rem;
+    }
+    .about-brand-container .about-brand-content{
+        width: 100%;
+        margin-top: 2.7rem;
+    }
+    .about-brand-container .about-brand-content p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-bottom: 1.2rem;
+    }
+}
