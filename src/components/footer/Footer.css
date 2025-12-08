@@ -73,3 +73,32 @@ footer .copyright p{
         font-size: calc(0.35rem + 0.5vw);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer-content{
+        padding: 2rem 1rem 2rem 1rem;
+        flex-direction: column;
+    }
+    footer .footer-left{
+        width: 100%;
+    }
+    footer .footer-right{
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    footer img{
+        width: 110px;
+    }
+    footer .footer-right p{
+        font-size: calc(1.1rem + 0.5vw);
+    }
+    footer .copyright{
+        padding: 0.8rem 1rem;
+    }
+    footer .copyright p{
+        font-size: calc(0.75rem + 0.5vw);
+    }
+    footer .copyright p span{
+        display: none;
+    }
+}
