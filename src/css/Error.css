@@ -1,0 +1,25 @@
+.error{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.error h1{
+    font-size: calc(3rem + 0.5vw);
+    font-weight: 600;
+    margin-top: -2rem;
+    letter-spacing: 5px;
+}
+.error button{
+    font-size: calc(0.65rem + 0.5vw);
+    border: none;
+    padding: 0.7rem 1.7rem 0.6rem 1.7rem;
+    border-radius: 5px;
+    background-color: #eae9e9;
+    transition: all 0.1s ease;
+}
+.error button:hover{
+    background-color: #d6d6d6;
+}
