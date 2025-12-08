@@ -134,3 +134,37 @@
         margin-top: -0.4rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about-founder{
+        padding: 1.5rem 1rem;
+    }
+    .about-founder .about-founder-head h2{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .about-founder .about-founder-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.3rem;
+        width: 100%;
+    }
+    .about-founder-content{
+        margin-top: 1.5rem;
+    }
+    .about-founder-content #founder-background{
+        display: none;
+    }
+    .about-founder-content .content-box{
+        width: 100%;
+        padding-top: 2.5rem;
+    }
+    .about-founder-content .content-box:nth-child(3){
+        padding: 0;
+        margin: 3rem 0 2rem 0;
+    }
+    .about-founder-content .content-box p{
+        font-size: calc(1.2rem + 0.5vw);
+    }
+    .about-founder-content .content-box span{
+        font-size: calc(4rem + 0.5vw);
+    }
+}
