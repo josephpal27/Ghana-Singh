@@ -132,3 +132,39 @@
         margin-top: -0.3rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .collections{
+        padding: 2.5rem 1rem 2rem 1rem;
+    }
+    .collections .collections-head h3{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .collections .collections-head p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.3rem;
+        width: 100%;
+    }
+    .collection-grid{
+        margin-top: 2.5rem;
+    }
+    .collection-grid .collection-column{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .collection-grid .collection-column .box{
+        margin-bottom: 1rem;
+    }
+    .collection-grid .collection-column .text-box{
+        padding: 2.2rem 0 1.5rem 0;
+    }
+    .collection-grid .collection-column .text-box p{
+        font-size: calc(0.9rem + 0.5vw);
+    }
+    .collection-grid .collection-column .text-box span{
+        font-size: calc(3.7rem + 0.5vw);
+    }
+    .collection-grid .collection-column .text-box .right-quote{
+        right: 0;
+    }
+}
