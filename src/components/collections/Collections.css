@@ -139,10 +139,11 @@
     }
     .collections .collections-head h3{
         font-size: calc(1.4rem + 0.5vw);
+        font-weight: 600;
     }
     .collections .collections-head p{
         font-size: calc(0.9rem + 0.5vw);
-        margin-top: 0.3rem;
+        margin-top: 0.4rem;
         width: 100%;
     }
     .collection-grid{

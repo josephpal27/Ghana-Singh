@@ -95,10 +95,11 @@
     }
     .best-sellers h4{
         font-size: calc(1.4rem + 0.5vw);
+        font-weight: 600;
     }
     .best-sellers p{
         font-size: calc(0.9rem + 0.5vw);
-        margin-top: 0.5rem;
+        margin-top: 0.8rem;
         width: 100%;
     }
     .sellers-card-row{
@@ -111,6 +112,7 @@
     .sellers-card-row .seller-card span{
         font-size: calc(1.3rem + 0.5vw);
         margin-top: 1rem;
+        font-weight: 600;
     }
     .sellers-card-row .seller-card p{
         margin-top: 0.5rem;

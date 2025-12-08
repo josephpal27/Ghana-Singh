@@ -61,6 +61,7 @@
     .banner .slide-content span{
         font-size: calc(1.4rem + 0.5vw);
         margin-top: -3rem;
+        font-weight: 600;
     }
     .banner .slide-content p{
         font-size: calc(0.9rem + 0.5vw);
