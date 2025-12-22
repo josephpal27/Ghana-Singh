@@ -35,20 +35,20 @@ const Home = () => {
         {
             id: 1,
             img: bannerSlide1,
-            title: "Lorem",
-            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
+            title: "Bridal",
+            desc: "Inspired by nature’s refined luxury, the Emerald Garden Collection features emerald-cut greens, diamond leaf motifs, and timeless elegance for formal occasions.",
         },
         {
             id: 2,
             img: bannerSlide2,
-            title: "Lorem",
-            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
+            title: "Pokli 22 kt",
+            desc: "These lightweight yet grand-looking pieces offer a rich, classy appearance and are affordably priced, making them perfect for elegant gifting occasions.",
         },
         {
             id: 3,
             img: bannerSlide3,
-            title: "Lorem",
-            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
+            title: <>Statement <br/> earrings</>,
+            desc: "Verdant Heirloom Collection celebrates timeless elegance, emeralds with diamond detailing, blending classic geometry, charm, perfect for weddings, soirées, heirloom-worthy moments.",
         },
     ]
 
