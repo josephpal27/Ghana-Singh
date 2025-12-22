@@ -36,19 +36,19 @@ const Home = () => {
             id: 1,
             img: bannerSlide1,
             title: "Lorem",
-            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
         },
         {
             id: 2,
             img: bannerSlide2,
             title: "Lorem",
-            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
         },
         {
             id: 3,
             img: bannerSlide3,
             title: "Lorem",
-            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            desc: "Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor ut labore et dolore magna aliqua.",
         },
     ]
 
