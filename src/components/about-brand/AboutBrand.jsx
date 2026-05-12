@@ -1,5 +1,5 @@
 import './AboutBrand.css';
-import brandImg from '../../assets/images/about-brand.avif';
+import brandImg from '/images/about-brand.avif';
 
 const AboutBrand = () => {
     return (

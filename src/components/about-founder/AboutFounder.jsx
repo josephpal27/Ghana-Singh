@@ -1,5 +1,4 @@
 import './AboutFounder.css';
-import founderImg from '../../assets/images/founder.avif';
 
 const AboutFounder = () => {
     return (
@@ -16,7 +15,7 @@ const AboutFounder = () => {
                         <p>He strongly believes in the idea that “once you come to GhanaSingh,</p>
                     </div>
                     <div className="content-box">
-                        <img src={founderImg} alt="Founder" loading="lazy" />
+                        <img src="/images/founder.avif" alt="Founder" loading="lazy" />
                     </div>
                     <div className="content-box" data-aos="fade">
                         <p>you won't go anywhere else,” reflecting his confidence, loyalty, and deep dedication to what he stands for.</p>

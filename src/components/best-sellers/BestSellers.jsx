@@ -1,26 +1,23 @@
 import './BestSellers.css';
-import sellerImg1 from '../../assets/images/sellers/1.avif';
-import sellerImg2 from '../../assets/images/sellers/2.avif';
-import sellerImg3 from '../../assets/images/sellers/3.avif';
 
 const BestSellers = () => {
 
     const sellersData = [
         {
             id: 1,
-            img: sellerImg1,
+            img: "/images/sellers/1.avif",
             title: "Lorem Ipsum",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod ut labore et dolore magna eiusmod.",
         },
         {
             id: 2,
-            img: sellerImg2,
+            img: "/images/sellers/2.avif",
             title: "Lorem Ipsum",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod tempor incididunt ut labore et dolore magna eiusmod.",
         },
         {
             id: 3,
-            img: sellerImg3,
+            img: "/images/sellers/3.avif",
             title: "Lorem Ipsum",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt eiusmod ut labore et dolore magna eiusmod.",
         },
