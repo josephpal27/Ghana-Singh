@@ -12,7 +12,7 @@ const AboutFounder = () => {
                     <span id="founder-background" data-aos="zoom-in" data-aos-once="true">FOUNDER</span>
                     <div className="content-box" data-aos="fade">
                         <span className="left-quote">“</span>
-                        <p>He strongly believes in the idea that “once you come to GhanaSingh,</p>
+                        <p>He strongly believes in the idea that “once you come to Ghanasingh,</p>
                     </div>
                     <div className="content-box">
                         <img src="/images/founder.avif" alt="Founder" loading="lazy" />

@@ -12,9 +12,9 @@ const AboutBrand = () => {
                         <div className="layer"></div>
                     </div>
                     <div className="about-brand-content">
-                        <p data-aos="fade">Founded in 1905, GhanaSingh be true jewels is a prestigious jewellery brand with a legacy of 120 years in fine craftsmanship. Our heritage reflects a deep commitment to authenticity, quality, and timeless design.</p>
+                        <p data-aos="fade">Founded in 1905, Ghanasingh Be True jewels is a prestigious jewellery brand with a legacy of 120 years in fine craftsmanship. Our heritage reflects a deep commitment to authenticity, quality, and timeless design.</p>
                         <p data-aos="fade">We offer a wide range of collections, including luxurious bridal jewellery crafted for unforgettable moments, and finely detailed 22KT gold pieces that represent purity and elegance. In addition, we present a thoughtful selection of affordable gift items, making it easy for customers to find meaningful jewellery within any budget.</p>
-                        <p data-aos="fade">With a blend of tradition and innovation, GhanaSingh Be True Jewels continues to be a trusted name for generations seeking beauty, value, and authenticity.</p>
+                        <p data-aos="fade">With a blend of tradition and innovation, Ghanasingh Be True Jewels continues to be a trusted name for generations seeking beauty, value, and authenticity.</p>
                     </div>
                 </div>
             </section>
