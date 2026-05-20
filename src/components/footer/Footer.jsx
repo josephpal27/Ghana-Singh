@@ -13,8 +13,8 @@ const Footer = () => {
                         <p>Shop no 1/6 shyam vihar, <br /> Gr floor, 706 linking road opposite Punjab Sindh paneer, Khar west mumbai 400052</p>
                     </div>
                 </div>
-                <div className="copyright">
-                    <p>Copyright © 2025 <span>| GHANASINGH JEWELS AND GEMS PRIVATE LIMITED</span> | All Rights Reserved</p>
+                <div className="copyright"> 
+                    <p>Copyright © 2025 <span>| GHANASINGH JEWELS AND GEMS PVT. LTD.</span> | All Rights Reserved</p>
                 </div>
             </footer>
         </>

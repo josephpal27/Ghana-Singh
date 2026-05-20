@@ -1,9 +1,28 @@
 .contact-map{
-    padding: 3rem 0 1rem 0;
+    padding: 3rem 7% 3rem 7%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .contact-map .map-box{
-    width: 100%;
-    height: 60vh;
+    width: 48%;
+}
+.contact-map .map-box span{
+    display: block;
+    font-size: calc(1.8rem + 0.5vw);
+    font-family: "CinzelVariable", sans-serif !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact-map .map-box p{
+    font-size: calc(0.65rem + 0.5vw);
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.contact-map .map-box iframe{
+    height: 50vh;
 }
 
 /* Media Queries */
