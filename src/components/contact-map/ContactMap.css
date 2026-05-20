@@ -28,21 +28,49 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .contact-map{
-        padding: 2.7rem 0 0.8rem 0;
+        padding: 2.7rem 7% 2.8rem 7%;
+    }
+    .contact-map .map-box span{
+        font-size: calc(1.6rem + 0.5vw);
+    }
+    .contact-map .map-box p{
+        font-size: calc(0.6rem + 0.5vw);
+        margin-top: 0.9rem;
+        margin-bottom: 1.9rem;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .contact-map{
-        padding: 2.5rem 0 0.7rem 0;
+        padding: 2.5rem 7% 2.7rem 7%;
+    }
+    .contact-map .map-box span{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .contact-map .map-box p{
+        font-size: calc(0.52rem + 0.5vw);
+        margin-top: 0.8rem;
+        margin-bottom: 1.7rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .contact-map{
-        padding: 2.5rem 0 0.7rem 0;
+        padding: 2rem 1rem 0.7rem 1rem;
     }
     .contact-map .map-box{
-        height: 60vh;
+        width: 100%;
+    }
+    .contact-map .map-box span{
+        font-size: calc(1.4rem + 0.5vw);
+    }
+    .contact-map .map-box p{
+        font-size: calc(0.9rem + 0.5vw);
+        margin-top: 0.8rem;
+        margin-bottom: 1.2rem;
+    }
+    .contact-map .map-box iframe{
+        height: 30vh;
+        margin-bottom: 2rem;
     }
 }

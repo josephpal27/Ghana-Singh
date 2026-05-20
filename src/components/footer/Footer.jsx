@@ -14,7 +14,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="copyright"> 
-                    <p>Copyright © 2025 <span>| GHANASINGH JEWELS AND GEMS PVT. LTD.</span> | All Rights Reserved</p>
+                    <p>Copyright © 2025 | GHANASINGH JEWELS AND GEMS PVT. LTD. | All Rights Reserved</p>
                 </div>
             </footer>
         </>
