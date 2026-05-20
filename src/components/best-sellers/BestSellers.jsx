@@ -6,28 +6,28 @@ const BestSellers = () => {
         {
             id: 1,
             img: "/images/sellers/1.avif",
-            title: "Pink Polki",
-            desc: "Designed to radiate grace and femininity, this heirloom-worthy Polki set is a timeless expression of bridal charm and elegance.",
+            title: "Emerald Set",
+            desc: "Statement heirlooms for bold after-dark moments.",
         },
         {
             id: 2,
             img: "/images/sellers/2.avif",
-            title: "Pink and Green Polki set",
-            desc: "Bold yet graceful, this statement Polki set combines rich green hues and delicate pink accents for celebrations filled with grandeur and elegance.",
+            title: "Pink and Green Polki Set",
+            desc: "Playful heirlooms crafted for colour and individuality.",
         },
         {
             id: 3,
             img: "/images/sellers/3.avif",
-            title: "Emerald set",
-            desc: "A regal emerald masterpiece designed to embody timeless sophistication, heritage artistry, and bridal luxury for unforgettable occasions.",
+            title: "Pink Polki",
+            desc: "Gold kissed heirlooms crafted for Haldi moments.",
         },
     ]
 
     return (
         <>
             <div className="best-sellers">
-                <h4 data-aos="fade-up">TIMELESS JEWELS</h4>
-                <p data-aos="fade">Discover the most loved creations by Ghanasingh Be True, timeless heirlooms crafted with intricate artistry, regal gemstones, and bridal elegance designed to leave a lasting impression.</p>
+                <h4 data-aos="fade-up">BESTSELLER BRIDAL HEIRLOOMS</h4>
+                <p data-aos="fade">Discover the most loved creations by Ghanasingh Be True, timeless bridal heirlooms crafted with intricate artistry, regal gemstones, and bridal elegance designed to leave a lasting impression.</p>
                 <div className="sellers-card-row">
                     {
                         sellersData.map((item, index) => {

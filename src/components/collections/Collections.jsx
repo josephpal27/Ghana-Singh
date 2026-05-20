@@ -5,15 +5,15 @@ const Collections = () => {
     <>
       <section className="collections">
         <div className="collections-head">
-            <h3 data-aos="fade-up">A COLLECTION ROOTED IN HERITAGE</h3>
-            <p data-aos="fade">A luxurious curation of heirloom-worthy bridal jewels rooted in timeless tradition, featuring intricate Polki sets, regal emerald necklaces, vintage-inspired masterpieces, radiant sapphires, and handcrafted bridal treasures created for the modern bride. Blending heritage craftsmanship with contemporary elegance, each piece is designed to celebrate life’s most cherished moments and become a legacy treasured for generations to come.</p>
+            <h3 data-aos="fade-up">DESTINATION WEDDING HEIRLOOMS</h3>
+            <p data-aos="fade">Adorning timeless celebration across generations. A luxurious curation of heirloom-worthy bridal jewels rooted in timeless tradition created for the modern bride.</p>
         </div>
         <div className="collection-grid">
             {/* Left */}
             <div className="collection-column">
                 <div className="box text-box">
                     <span className="left-quote">“</span>
-                    <p>Intricate bridal jewels inspired by timeless tradition, crafted to elevate every celebration with grace, grandeur, and modern elegance.</p>
+                    <p>Minimal Layers and standout accents for a sunlit celebration.</p>
                     <span className="right-quote">”</span>
                 </div>
                 <div className="box">
@@ -33,7 +33,7 @@ const Collections = () => {
                 </div>
                 <div className="box text-box">
                     <span className="left-quote">“</span>
-                    <p>A luxurious bridal edit featuring statement heirlooms, regal craftsmanship, and timeless jewellery for every celebration leading to “I do.”</p>
+                    <p>For the pheras, choose heirloom layers that hold weight, details and meaning.</p>
                     <span className="right-quote">”</span>
                 </div>
             </div>
