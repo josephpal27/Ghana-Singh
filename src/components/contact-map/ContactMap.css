@@ -7,6 +7,10 @@
 .contact-map .map-box{
     width: 48%;
 }
+.contact-map .map-box:last-child{
+    width: 100%;
+    margin-top: 3rem;
+}
 .contact-map .map-box span{
     display: block;
     font-size: calc(1.8rem + 0.5vw);
@@ -30,6 +34,9 @@
     .contact-map{
         padding: 2.7rem 7% 2.8rem 7%;
     }
+    .contact-map .map-box:last-child{
+        margin-top: 2.5rem;
+    }
     .contact-map .map-box span{
         font-size: calc(1.6rem + 0.5vw);
     }
@@ -43,6 +50,9 @@
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .contact-map{
         padding: 2.5rem 7% 2.7rem 7%;
+    }
+    .contact-map .map-box:last-child{
+        margin-top: 2rem;
     }
     .contact-map .map-box span{
         font-size: calc(1.4rem + 0.5vw);
@@ -60,6 +70,9 @@
     }
     .contact-map .map-box{
         width: 100%;
+    }
+    .contact-map .map-box:last-child{
+        margin-top: 0;
     }
     .contact-map .map-box span{
         font-size: calc(1.4rem + 0.5vw);
