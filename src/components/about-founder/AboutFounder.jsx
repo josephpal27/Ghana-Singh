@@ -16,7 +16,7 @@ const AboutFounder = () => {
                         <p>With a keen eye for quality and aesthetics, besides being highly qualified and trained in the jewellery field, he adds his knowledge and expertise to create newer trends in jewellery with each of his designs. His vision is to create ‘one of a kind, unique pieces’ with great attention to detail that echo a harmonious blend between modern design and traditional craftsmanship.</p>
                     </div>
                     <div className="content-box image-box">
-                        <img src="/images/founder-1.jpeg" alt="Founder 1" loading="lazy" />
+                        <img src="/images/founder-1.avif" alt="Founder 1" loading="lazy" />
                         <p>Gautam Ghanasingh</p>
                         <p>Creative Director, Ghanasingh Be True, Bandra</p>
                     </div>
@@ -34,7 +34,7 @@ const AboutFounder = () => {
                         <p>An extremely sound work portfolio as the financial advisor at JP Morgan, followed by Goldman Sachs and a decade of being an investment banker, Krishaa applied her commerce and finance prowess to jewellery and the transition was beyond smooth. As an avid art collector, she is well-informed about international trends, hence there is a decent understanding of design too. Being married to the heart of the brand Gautam Ghanasingh, Krishaa joined the family business to accomplish a shared vision to make Ghaasingh Be True a global brand rooted in India.</p>
                     </div>
                     <div className="content-box image-box">
-                        <img src="/images/founder-2.jpeg" alt="Founder 2" loading="lazy" />
+                        <img src="/images/founder-2.avif" alt="Founder 2" loading="lazy" />
                         <p>Krishaa Ghanasingh</p>
                         <p>Expansion Strategy & Marketing Director, Ghanasingh Be True</p>
                     </div>
