@@ -31,7 +31,7 @@ const AboutFounder = () => {
                     <div className="content-box" data-aos="fade">
                         <span className="left-quote">“</span>
                         <p>At the head of any business lies a mind that is astute and for Ghanasingh Be True, it is their Expansion Strategy & Marketing Director Krishaa Ghanasingh.</p>
-                        <p>An extremely sound work portfolio as the financial advisor at JP Morgan, followed by Goldman Sachs and a decade of being an investment banker, Krishaa applied her commerce and finance prowess to jewellery and the transition was beyond smooth. As an avid art collector, she is well-informed about international trends, hence there is a decent understanding of design too. Being married to the heart of the brand Gautam Ghanasingh, Krishaa joined the family business to accomplish a shared vision to make Ghaasingh Be True a global brand rooted in India.</p>
+                        <p>An extremely sound work portfolio as the financial advisor at JP Morgan, followed by Goldman Sachs and a decade of being an investment banker, Krishaa applied her commerce and finance prowess to jewellery and the transition was beyond smooth. As an avid art collector, she is well-informed about international trends, hence there is a decent understanding of design too. Being married to the heart of the brand Gautam Ghanasingh, Krishaa joined the family business to accomplish a shared vision to make Ghanasingh Be True a global brand rooted in India.</p>
                     </div>
                     <div className="content-box image-box">
                         <img src="/images/founder-2.avif" alt="Founder 2" loading="lazy" />
