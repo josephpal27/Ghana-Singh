@@ -1,5 +1,5 @@
 .about-founder{
-    padding: 2rem 7%;
+    padding: 2rem 7% 1rem 7%;
 }
 .about-founder .about-founder-head{
     display: flex;
@@ -46,11 +46,21 @@
     width: 100%;
     height: auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    margin-bottom: 1rem;
 }
 .about-founder-content .content-box p{
-    font-size: calc(1.4rem + 0.5vw);
+    font-size: calc(0.4rem + 0.5vw);
     color: #000;
     margin: 0;
+    margin-top: 0.8rem;
+}
+.about-founder-content .image-box p{
+    font-size: calc(0.25rem + 0.5vw);
+    margin-top: 0.3rem;
+}
+.about-founder-content .image-box p:nth-child(2){
+    font-weight: 600;
+    font-size: calc(0.5rem + 0.5vw);
 }
 .about-founder-content .content-box span{
     font-size: calc(5rem + 0.5vw);
@@ -61,7 +71,7 @@
     position: absolute;
 }
 .about-founder-content .content-box .left-quote{
-    top: 0;
+    top: 1rem;
 }
 .about-founder-content .content-box .right-quote{
     right: 0;
@@ -71,7 +81,7 @@
 /* Media Queries */
 @media screen and (min-width: 1230px) and (max-width: 1399px) {
     .about-founder{
-        padding: 1.7rem 7%;
+        padding: 1.7rem 7% 0.7rem 7%;
     }
     .about-founder .about-founder-head h2{
         font-size: calc(2.8rem + 0.5vw);
@@ -92,10 +102,21 @@
         padding-top: 2.5rem;
     }
     .about-founder-content .content-box p{
-        font-size: calc(1.2rem + 0.5vw);
+        font-size: calc(0.35rem + 0.5vw);
+        margin-top: 0.6rem;
+    }
+    .about-founder-content .image-box p{
+        font-size: calc(0.2rem + 0.5vw);
+        margin-top: 0.2rem;
+    }
+    .about-founder-content .image-box p:nth-child(2){
+        font-size: calc(0.45rem + 0.5vw);
     }
     .about-founder-content .content-box span{
         font-size: calc(4.5rem + 0.5vw);
+    }
+    .about-founder-content .content-box .left-quote{
+        top: 0.6rem;
     }
     .about-founder-content .content-box .right-quote{
         margin-top: -0.4rem;
@@ -104,7 +125,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1229px) {
     .about-founder{
-        padding: 1.4rem 7%;
+        padding: 1.4rem 7% 0.4rem 7%;
     }
     .about-founder .about-founder-head h2{
         font-size: calc(2.6rem + 0.5vw);
@@ -125,10 +146,21 @@
         padding-top: 2.3rem;
     }
     .about-founder-content .content-box p{
-        font-size: calc(1.1rem + 0.5vw);
+        font-size: calc(0.3rem + 0.5vw);
+        margin-top: 0.5rem;
+    }
+    .about-founder-content .image-box p{
+        font-size: calc(0.2rem + 0.5vw);
+        margin-top: 0.2rem;
+    }
+    .about-founder-content .image-box p:nth-child(2){
+        font-size: calc(0.45rem + 0.5vw);
     }
     .about-founder-content .content-box span{
         font-size: calc(4rem + 0.5vw);
+    }
+    .about-founder-content .content-box .left-quote{
+        top: 0.5rem;
     }
     .about-founder-content .content-box .right-quote{
         margin-top: -0.4rem;
@@ -160,12 +192,22 @@
     }
     .about-founder-content .content-box:nth-child(3){
         padding: 0;
-        margin: 3rem 0 2rem 0;
+        margin: 2.5rem 0 -1rem 0;
     }
     .about-founder-content .content-box p{
-        font-size: calc(1.2rem + 0.5vw);
+        font-size: calc(0.7rem + 0.5vw);
+    }
+    .about-founder-content .image-box p{
+        font-size: calc(0.5rem + 0.5vw);
+        margin-top: 0.3rem;
+    }
+    .about-founder-content .image-box p:nth-child(2){
+        font-size: calc(0.8rem + 0.5vw);
     }
     .about-founder-content .content-box span{
         font-size: calc(4rem + 0.5vw);
+    }
+    .about-founder-content .content-box .left-quote{
+        top: 0.7rem;
     }
 }
